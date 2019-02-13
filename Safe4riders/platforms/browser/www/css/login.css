@@ -1,0 +1,174 @@
+/*    --------------------------------------------------
+	:: Login Section
+	-------------------------------------------------- */
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}
+
+
+/*    --------------------------------------------------
+    :: titulo
+	-------------------------------------------------- */
+	
+	
+.titulo{
+    color: #ffffff;
+	margin-top:2em;
+}
+.backgroundp{
+background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.here p{
+    color: #ffffff;
+	margin-top:2em;
+}
+
+a {
+    color: #ffffff;
+}
+
+
+body{
+    background-color: #ffffff;
+	margin-top:2em;
+}
+
+.backgroundimg{
+background-image:url('../img/fondo3.jpg');
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+
+}
+
+.backgroundimgcolor{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a8e063+0,7db9e8+100&1+0,0+100 */
+background: -moz-linear-gradient(45deg, rgba(168,224,99,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(168,224,99,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(168,224,99,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8e063', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.backgroundtitle{
+	
+background-color: rgba(030, 030, 030, 0.3);
+color:#ffffff;
+text-align:center;
+
+}
+
+.bordertitle{
+	
+border-style: solid;
+width:50px;
+height:100%;
+
+
+}
+
+.enlaces{
+	
+font-size:80px;
+padding: 10px 10px 10px 10px;
+background-color:#FFA500;
+width:115px;
+height:100px;
+
+
+}
+
+
+
